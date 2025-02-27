@@ -4,11 +4,12 @@
 	width: 616px;
 	height: 100%;
 	overflow: scroll;
+	scrollbar-width: none;
 	transform: translate(-616px);
 	transition: transform 0.5s ease;
 }
 
-.container_open {
+.containerOpen {
 	transform: translate(0);
 }
 
@@ -23,6 +24,13 @@
 	padding: 50px 31px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
+}
+
+.fieldset {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin: 50px 0;
 }
 
 .bottomContainer {
